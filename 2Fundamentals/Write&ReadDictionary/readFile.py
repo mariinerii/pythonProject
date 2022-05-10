@@ -6,7 +6,7 @@ import pickle
 
 # En esta linea se abre el arcivo el cual le estoy pasando el nombre de este y el alias que
 # le di al crear el archivo
-with open('listaDiccionario.bin','rb') as neri:
+with open('listaDiccionario.bin', 'rb') as neri:
 
 #la variable llamada arhivo la lee con la siguiente linea donde le estoy pasando el archivo
         archivo = pickle.load(neri)

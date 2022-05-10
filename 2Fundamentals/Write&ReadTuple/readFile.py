@@ -6,7 +6,7 @@ import pickle
 
 # En esta linea se abre el arcivo el cual le estoy pasando el nombre de este y el alias que
 # le di al crear el archivo en esta caso neri2
-with open('tuple.bin','rb') as neri2:
+with open('tuple.bin', 'rb') as neri2:
 
 #la variable llamada arhivo2 la lee con la siguiente linea donde le estoy pasando el archivo
         archivo2 = pickle.load(neri2)
